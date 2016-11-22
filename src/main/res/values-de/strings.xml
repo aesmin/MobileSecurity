@@ -1,0 +1,193 @@
+<resources>
+
+    <string name="app_name">"SSMS"</string>
+    <string name="data_section">Daten</string>
+    <string name="lock_section">"Sperren"</string>
+    <string name="wipe_section">Löschen</string>
+    <string name="alarm_section">"Alarm"</string>
+    <string name="locate_section">"Lokalisieren"</string>
+    <string name="menu_settings">"Einstellungen"</string>
+    <string name="title_activity_main">"SSMS"</string>
+    <string name="location_text">"SSMS verfolgt den Standort des Gerätes.\nZum Abschalten \"Verfolgung deaktivieren\" drücken."</string>
+
+    <string name="disable_tracking_button">"Verfolgung deaktivieren"</string>
+    <string name="disable_tracking_prevent_back">Bitte schalten Sie die Standortverfolgung vor dem Schließen ab</string>
+    <string name="tracking_returned_no_location">Standort konnte nicht erfasst werden</string>
+    <string name="tracking_address">Adresse:</string>
+    <string name="tracking_disabled">Verfolgung abgeschaltet</string>
+    <string name="tracking_location_not_better">Standort unverändert</string> 
+    
+    <string name="device_admin_reason">"SSMS benötigt Geräteadministratorrechte für die Löschen-/Sperren-Funktionen."</string>
+    <string name="device_admin_description">Erlaubt es SSMS das Gerät zu löschen, sperren, verfolgen und eine Sicherung zu erstellen.</string>
+    <string name="descr_overflow_button">"overflow"</string>
+    
+    <string name="aegis_wipe_in_progress">Lösche Inhalt der SD-Karte...</string>
+    
+    <string name="aegis_location_services_not_enabled">Damit SSMS den Standort des Gerätes erfassen kann, müssen Sie zuerst der Standortzugriff freigeben.</string>
+    <string name="aegis_open_location_settings">Einschalten</string>
+    <string name="aegis_backup_service_not_enabled">Bitte wählen Sie ein Backup Konto um mit der Datensicherung fortzufahren</string>
+    <string name="aegis_backup_service_open_settings">Auswählen</string>
+    <string name="aegis_backup_service_choose_account">Konto wählen</string>
+    <string name="aegis_backup_service_logout_from_account">Abmelden</string>
+    <string name="aegis_backup_service_options_menu">Konto Optionen</string>
+    <string name="aegis_choose_backup_application">Backupdienst auswählen</string>
+    <string name="aegis_backup_service_upgrade_to_play_store">"Falls Sie ein echtes Gerät nutzen (keinen Emulator), updaten Sie bitte die Play Store Applikation"</string> 
+   
+    <string name="preferences_advanced_category">Erweiterte Einstellungen</string>
+    <string name="preferences_advanced_sms_category">SMS Einstellungen</string>
+    <string name="preferences_advanced_root_category">Root Einstellungen (ROOT-RECHTE BENÖTIGT)</string>
+    <string name="preferences_advanced_backup_accounts_category">Backup Konten</string>
+    <string name="preferences_advanced_backup_phone_number_title">Backup Telefonnummer</string>
+    <string name="preferences_advanced_backup_phone_number_summary">Backupnummer, welche zur Standorterfassung genutzt wird, wenn eine neue SIM Karte im Gerät erkannt wurde</string>
+    <string name="preferences_advanced_hide_from_launcher_title">Vom Wählfeld ausführen</string>
+    <string name="preferences_advanced_hide_from_launcher_summary">Startet SSMS durch das Wählen von "*#*#23447#*#*"</string>
+    <string name="preferences_advanced_enabled_confirmaton_sms_title">Bestätigungs-SMS</string>
+    <string name="preferences_advanced_enabled_confirmaton_sms_summary">Bestätigt eine Aktion mit einer SMS</string>
+    <string name="preferences_advanced_enable_abort_broadcast">Broadcast unterdrücken</string>
+    <string name="preferences_advanced_enable_abort_broadcast_summary">Die Aktivierungs-SMS wird nicht von weiteren Apps erhalten</string>
+    <string name="preferences_advanced_change_password">Passwort ändern</string>
+    <string name="preferences_advanced_remove_admin">Als Geräte-Administrator entfernen</string>
+    <string name="preferences_advanced_remove_admin_summary">Erlaubt es, SSMS direkt zu deinstallieren</string>
+    <string name="preferences_advanced_remove_admin_completed">Kein Geräte-Administrator mehr</string>
+    <string name="preferences_advanced_install_to_system">SSMS als Systemanwendung installieren</string>
+    <string name="preferences_advanced_install_to_system_summary">Schützt SSMS beim Zurücksetzen des Gerätes</string>
+    <string name="preferences_advanced_google_account_title">Google Drive Konto</string>
+    <string name="preferences_advanced_dropbox_account_title">Dropbox Konto</string>
+    <string name="preferences_advanced_dropbox_account_summary_active">Aktiv</string>
+    <string name="preferences_advanced_dropbox_account_summary_inactive">Inaktiv</string>
+    <string name="preferences_alarm_category">"Alarm"</string>
+    <string name="preferences_alarm_enabled_title">"Alarm"</string>
+    <string name="preferences_alarm_enabled_summary">"Alarm abspielen und Klingelton aktivieren"</string>
+    <string name="preferences_alarm_activation_sms_title">"Alarm-SMS"</string>
+    <string name="preferences_alarm_activation_sms_summary">Text der SMS festlegen, mit der ein Alarm aktiviert wird. Es wird empfohlen, eine PIN zu nutzen, um Missbrauch zu verhindern.</string>
+    <string name="preferences_alarm_vibrate_title">"Vibrieren"</string>
+    <string name="preferences_alarm_vibrate_summary">Bei aktivem Alarm vibrieren</string>
+    <string name="preferences_alarm_duration_title">Alarmdauer</string>
+    <string name="preferences_alarm_duration_summary">Dauer des Alarmtons</string> 
+    <string name="preferences_lock_category">"Sperren"</string>
+    <string name="preferences_lock_enabled_title">"Sperren"</string>
+    <string name="preferences_lock_enabled_summary">"Gerät sperren, wenn Aktivierungs-SMS empfangen wird"</string>
+    <string name="preferences_lock_activation_sms_title">"Sperr-SMS"</string>
+    <string name="preferences_lock_activation_sms_summary">Text der SMS festlegen, mit der das Gerät gesperrt wird. Es wird empfohlen, eine PIN zu nutzen, um unberechtigtes Sperren zu verhindern.</string>
+    <string name="preferences_lock_password_title">"Standard-Passwort"</string>
+    <string name="preferences_lock_password_send_in_sms_title">Passwort in SMS zurücksenden</string>
+    <string name="preferences_lock_password_summary">Passwort für den Sperrbildschirm festlegen. Die Sperre des Gerätes wird auf dieses Passwort geändert. Hängen Sie das gewünschte Passwort an die Aktivierungs-SMS an, um dieses Passwort zu überschreiben. Falls Sie das Feld leer lassen, wird der Sperrbildschirm nicht geändert. Das Gerät wird nur gesperrt und der Benutzer muss es mit der in den Systemeinstellungen festgelegten Methode entsperren.</string>
+    <string name="preferences_lock_password_send_in_sms_summary">Das Sperrpasswort beim Bestätigen der Sperrung per SMS mitsenden</string> 
+    <string name="preferences_wipe_category">Löschen</string>
+    <string name="preferences_wipe_enabled_title">Löschen</string>
+    <string name="preferences_wipe_enabled_summary">Gerätedaten löschen, wenn die Aktivieruns-SMS empfangen wird</string>
+    <string name="preferences_wipe_activation_sms_title">Aktivierungs-SMS des Löschvorgangs</string>
+    <string name="preferences_wipe_activation_sms_summary">Wähle einen Text, bei dessen Empfang die Gerätedaten gelöscht werden. Es wird empfohlen, eine PIN zu nutzen, um Missbrauch zu verhindern.</string> 
+    <string name="preferences_wipe_sdcard_title">SD-Karte(n) löschen</string> 
+    <string name="preferences_wipe_sdcard_summary">Alle SD-Karte bei Aktivierungs-SMS ebenfalls löschen</string>
+    <string name="preferences_data_category">Daten</string>
+    <string name="preferences_data_enabled_title">Daten</string>
+    <string name="preferences_data_enabled_summary">Daten bei Aktivierungs-SMS sichern</string>
+    <string name="preferences_data_activation_sms_title">Datensicherungs-SMS</string>
+    <string name="preferences_data_activation_sms_summary">Text der SMS festlegen, mit der eine Datensicherung ausgelöst wird. Es wird empfohlen, eine PIN zu nutzen, um Missbrauch zu verhindern.</string>
+    <string name="preferences_data_backup_call_logs_title">Anrufverlauf sichern</string>
+    <string name="preferences_data_backup_call_logs_summary">Verlauf ankommender und abgehender Anrufe sichern</string>
+    <string name="preferences_data_backup_sms_logs_title">SMS-Verlauf sichern</string>
+    <string name="preferences_data_backup_sms_logs_summary">Verlauf ankommender und abgehender SMS sichern</string>
+    <string name="preferences_locate_category">"Lokalisieren"</string>
+    <string name="preferences_locate_enabled_title">"Lokalisieren"</string>
+    <string name="preferences_locate_enabled_summary">"Gerät lokalisieren, wenn die Aktivierungs-SMS empfangen wird."</string>
+    <string name="preferences_locate_activation_sms_title">"Lokalisierungs-SMS"</string>
+    <string name="preferences_locate_activation_sms_summary">Text der SMS festlegen, mit der das Gerät lokalisiert wird. Es wird empfohlen, eine PIN zu nutzen, um Missbrauch zu verhindern.</string>
+    <string name="preferences_locate_stop_sms_title">Lokalisierung-Beenden SMS</string>
+    <string name="preferences_locate_stop_sms_summary">"Text der SMS festlegen, mit der die Lokalisierung aus der Ferne beendet wird"</string>
+    <string name="preferences_locate_lock_pref_title">"Gerät sperren"</string>
+    <string name="preferences_locate_lock_pref_summary">"Gerät wird bei Lokalisierung gesperrt"</string>
+    <string name="preferences_locate_geocode_pref_title">Adresse zurücksenden</string>
+    <string name="preferences_locate_geocode_pref_summary">Gerätestandort als Adresse zurücksenden</string>
+    <string name="preferences_locate_update_duration_title">"Standort Aktualisierungsintervall"</string>
+    <string name="preferences_locate_update_duration_summary">"Kürzere Zeiten verursachen einen höheren Batterieverbrauch"</string>
+    <string name="preferences_locate_minimum_distance_title">"Standort-Mindestabstand"</string>
+    <string name="preferences_locate_minimum_distance_summary">"Entfernung zum vorherigen Standort, ab der ein neuer Standort erfasst wird"</string>
+    
+    <string name="util_sendsms_alarm_pass">"SSMS: Sound erfolgreich aktiviert."</string>
+    <string name="util_sendsms_alarm_fail">"SSMS: Fehler beim Überschreiben der Sound-Einstellungen:"</string>
+    <string name="util_sendsms_lock_message">SSMS: Gerät erfolgreich gesperrt</string>
+    <string name="util_sendsms_lock_pass">"SSMS: Gerät gesperrt mit Passwort:"</string>
+    <string name="util_sendsms_lock_fail">"SSMS: Fehler beim Sperren des Gerätes:"</string>
+    <string name="util_sendsms_data_recovery_pass">SSMS: Datei gesichert:</string>
+    <string name="util_sendsms_data_recovery_fail">SSMS: Datensicherung fehlgeschlagen</string>
+    <string name="util_sendsms_wipe_pass">"SSMS: Alle Daten werden gelöscht."</string>
+    <string name="util_sendsms_wipe_sdcard_pass">SSMS: Lösche SD-Karte(n)</string>
+    <string name="util_sendsms_wipe_fail">"SSMS: Fehler beim Löschen aller Daten:"</string>
+    <string name="util_sendsms_locate_fail">"SSMS: Fehler beim Lokalisieren des Gerätes:"</string>
+    <string name="util_sendsms_locate_stopped">SSMS: Lokalisierung deaktiviert</string>
+    
+    <string name="register_password_textview">"Passwort"</string>
+    <string name="register_password_confirm_textview">"Passwort bestätigen"</string>
+    <string name="register_password_button">"Speichern"</string>
+    <string name="register_password_toast_password_set">"Passwort geändert"</string>
+    <string name="register_password_toast_password_fail">"Bitte geben Sie ein Passwort ein und bestätigen Sie es"</string>
+    <string name="register_password_toast_password_match_fail">"Die Passwörter stimmen nicht überein"</string>
+    <string name="register_password_checkbox_summary">"Passwort-Anmeldung deaktivieren"</string>
+    <string name="register_password_summary">"Bitte geben Sie ein Passwort ein, mit dem SSMS gesperrt wird, wenn Sie das Programm verlassen."</string>
+    
+    <string name="login_password_textview">"Passwort"</string>
+    <string name="login_password_button">"Anmelden"</string>
+    <string name="login_password_toast_password_fail">"Falsches Passwort"</string>
+    <string name="login_password_toast_password_enter">"Bitte geben Sie das Passwort ein"</string>
+    <string name="login_password_summary">"Bitte melden Sie sich an, um SSMS zu starten"</string>
+    
+    <string name="about_developer_name">"Copyright(©) 2013 Adnan Begovic"</string>
+    <string name="about_github_link">"Github-Link"</string>
+    <string name="about_email_link">"E-Mail an Entwickler senden"</string>
+    <string name="about_share_link">"SSMS teilen"</string>
+    <string name="about_xda_link">Support-Thread bei XDA</string>
+    <string name="about_quickly_link">Entwickler unterstützen</string>
+    <string name="about_changelog_link">Was ist neu?</string>
+    
+    <string name="overflow_help">Hilfe</string>
+    <string name="overflow_simlist">Erlaubte SIM-Karten</string>
+    <string name="overflow_advanced_settings">Einstellungen</string>
+    <string name="overflow_licenses">Lizenzen</string>
+    <string name="overflow_about">Über</string>
+
+    <string name="advanced_dialog_install_to_system">Möchten Sie SSMS als System-App installieren?\n\nDies verhindert, dass SSMS bei dem Zurücksetzen des Gerätes entfernt wird.\n\nAchtung: Ihr Gerät wird zur Bestätigung neu starten.\nDies kann nicht rückgängig gemacht werden.</string>
+    <string name="advanced_dialog_install">Installieren</string>
+    <string name="advanced_dialog_cancel">Abbrechen</string>
+    <string name="advanced_dialog_installing">Wird ins System installiert...</string>
+    <string name="advanced_dialog_installing_failed">Superuser-Rechte werden für die Systeminstallation benötigt</string>
+    <string name="advanced_install_to_system_fail">SSMS ist bereits als System App installiert</string>
+
+    <string name="array_update_item1">30 Sekunden</string>
+    <string name="array_update_item2">1 Minute</string>
+    <string name="array_update_item3">2 Minuten</string>
+    <string name="array_update_item4">3 Minuten</string>
+    <string name="array_update_item5">5 Minuten</string>
+    
+    <string name="array_distance_item1">10 Meter</string>
+    <string name="array_distance_item2">25 Meter</string>
+    <string name="array_distance_item3">50 Meter</string>
+    <string name="array_distance_item4">100 Meter</string>
+    <string name="array_distance_item5">500 Meter</string>
+    
+    <string name="aegis_choose_backup_application_1">Google Drive</string>
+    <string name="aegis_choose_backup_application_2">Dropbox</string>
+    
+    <string name="sim_menu_add">IMSI hinzufügen</string>
+    <string name="sim_menu_remove">IMSI entfernen</string>
+    <string name="sim_menu_edit">IMSI bearbeiten</string>
+    
+    <string name="sim_fragment_request_backup_number">Bitte tragen Sie eine gültige Backup-Telefonnummer ein, um diese Funktion zu nutzen</string>
+    <string name="sim_fragment_add_dialog">IMSI zur Liste hinzufügen</string>
+    <string name="sim_fragment_add_dialog_add">Hinzufügen</string>
+    <string name="sim_fragment_add_dialog_read">Auslesen</string>
+
+    <string name="sim_fragment_edit_dialog">IMSI aus der Liste bearbeiten</string>
+    <string name="sim_fragment_edit_dialog_save">Speichern</string>
+    <string name="sim_fragment_edit_dialog_cancel">Abbrechen</string>
+    <string name="sim_fragment_edit_dialog_null">Bitte geben Sie gültige Daten an</string> 
+
+    <string name="drawer_open">Drawer geöffnet</string>
+    <string name="drawer_close">Drawer geschlossen</string>
+
+    <string name="receiver_alarm_override">Audio überschrieben. Zum Abschalten berühren.</string>
+    
+    <string name="indicator_off">AUS</string>
+    <string name="indicator_on">AN</string> 
+</resources>

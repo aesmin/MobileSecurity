@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string-array name="relock_timeout_entries">
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>5 minutes</item>  
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+    </string-array>
+
+    <string-array name="relock_timeout_values">
+        <item>1</item>
+        <item>2</item>
+        <item>5</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+
+    <string-array name="application_themes">
+        <item name="lightDarkBar">Light Dark Bar</item>
+        <item name="lightWhiteBar">Light White Bar</item>
+        <item name="gray">Gray</item>
+        <item name="black">Black</item>
+        <item name="wallpaper">My Wallpaper</item>
+    </string-array>
+
+    <string-array name="themes_values">
+        <item name="lightDarkBar">16974143</item>
+        <item name="lightWhiteBar">16974123</item>
+        <item name="gray">16973836</item>
+        <item name="black">16973832</item>
+        <item name="wallpaper">16973918</item>
+    </string-array>
+    
+    <string-array name="preferences_locate_update_duration_entries">
+        <item>@string/array_update_item1</item>
+        <item>@string/array_update_item2</item>
+        <item>@string/array_update_item3</item>
+        <item>@string/array_update_item4</item>
+        <item>@string/array_update_item5</item>
+    </string-array>
+    <string-array name="preferences_locate_update_duration_values" translatable="false">
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>300</item>
+    </string-array>
+    
+    <string-array name="preferences_locate_minimum_distance_entries">
+        <item>@string/array_distance_item1</item>
+        <item>@string/array_distance_item2</item>
+        <item>@string/array_distance_item3</item>
+        <item>@string/array_distance_item4</item>
+        <item>@string/array_distance_item5</item>
+    </string-array>
+    <string-array name="preferences_locate_minimum_distance_values" translatable="false">
+        <item>10</item>
+        <item>25</item>
+        <item>50</item>
+        <item>100</item>
+        <item>500</item>
+    </string-array>
+    <string-array name="menu_array">
+        <item>@string/alarm_section</item>
+        <item>@string/lock_section</item>
+        <item>@string/wipe_section</item>
+        <item>@string/data_section</item>
+        <item>@string/locate_section</item>
+        <item>@string/menu_settings</item>
+        <item>@string/overflow_simlist</item>
+       <!-- <item>@string/overflow_about</item>-->
+    </string-array>
+    <string-array name="preferences_alarm_duration_entries">
+        <item>5 seconds</item>
+        <item>10 seconds</item>
+        <item>15 seconds</item>
+        <item>20 seconds</item>
+        <item>30 seconds</item>
+        <item>1 minutes</item>
+        <item>2 minutes</item>
+    </string-array>
+    <string-array name="preferences_alarm_duration_values" translatable="false">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+    </string-array>
+
+
+    <string-array name="preferences_scan_action_entries">
+        <item>Quarantine</item>
+        <item>Repair</item>
+        <item>Delete</item>
+        <item>Skip</item>
+    </string-array>
+
+    <string-array name="preferences_scan_action_values" translatable="false">
+        <item>Quarantine</item>
+        <item>Repair</item>
+        <item>Delete</item>
+        <item>Skip</item>
+    </string-array>
+
+
+    <string-array name="quarantine_action_entries">
+        <item>After 7 days</item>
+        <item>After 30 days</item>
+        <item>After 45 days</item>
+    </string-array>
+
+    <string-array name="quarantine_action_values">
+        <item>7</item>
+        <item>30</item>
+        <item>45</item>
+    </string-array>
+</resources>

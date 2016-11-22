@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <PreferenceCategory 
+        android:key="call_blocker_appearance"
+        android:title="Appearance">
+        
+        <ListPreference
+            android:key="call_blocker_theme_preference"
+            android:title="Application theme"
+            android:summary="Define the theme of this application"          	
+            android:entries="@array/application_themes"
+            android:entryValues="@array/themes_values"/>
+        
+    </PreferenceCategory>
+
+</PreferenceScreen>

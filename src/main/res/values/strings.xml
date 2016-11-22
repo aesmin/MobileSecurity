@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OutPut Premium Security</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="PREF">com.ssav</string>
+
+    <string name="hello">Hello World, AppLockerActivity!</string>
+
+    <string name="appLockerPreferenceActivityName">App Locker Preference</string>
+    <string name="service_running">Service is Running</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_call_blocker_blacklist_view">Output Premium Security</string>
+    <string name="title_activity_call_blocker_log">Output Premium Security</string>
+    <string name="title_activity_call_blocker_settings">Settings</string>
+
+
+    <string name="title_activity_main">Android Push Notifications</string>
+    <string name="error_config">Please set the %1$s constant and recompile the app.</string>
+    <string name="already_registered">Device is already registered on server.</string>
+    <string name="gcm_registered">GCM: device successfully registered!</string>
+    <string name="gcm_unregistered">GCM: device successfully unregistered!</string>
+    <string name="gcm_message">GCM: you got message!</string>
+    <string name="gcm_error">GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">GCM: server deleted %1$d pending messages!</string>
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on Demo Server.</string>
+    <string name="server_registered">Demo Server: successfully added device!</string>
+    <string name="server_unregistered">Demo Server: successfully removed device!</string>
+    <string name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>
+    <string name="server_unregister_error">Could not unregister device on Demo Server (%1$s).</string>
+    <string name="options_register">Register</string>
+    <string name="options_unregister">Unregister</string>
+    <string name="options_clear">Clear</string>
+    <string name="options_exit">Exit</string>
+    
+    <string name="data_section">Data</string>
+    <string name="lock_section">Lock</string>
+    <string name="wipe_section">Wipe</string>
+    <string name="alarm_section">Alarm</string>
+    <string name="locate_section">Locate</string>
+    <string name="location_text">OMS is tracking the devices location\nTo disable tracking, hit the Disable Tracking button</string>
+
+    <string name="disable_tracking_button">Disable Tracking</string>
+    <string name="disable_tracking_prevent_back">Please disable tracking before exiting</string>
+    <string name="tracking_returned_no_location">No Location Determined</string>
+    <string name="tracking_address">Address:</string>
+    <string name="tracking_disabled">Tracking Disabled</string>
+    <string name="tracking_location_not_better">Location unchanged</string>
+
+    <string name="device_admin_reason">OMS requires device admin control for the wipe/lock features.</string>
+    <string name="device_admin_description">Allows OMS to wipe, lock, track, and backup device.</string>
+    <string name="descr_overflow_button">overflow</string>
+
+    <string name="aegis_wipe_in_progress">Wiping sdcard contents...</string>
+
+    <string name="aegis_location_services_not_enabled">Location services are not active. You need to enable location services for OMS to be able to track your device.</string>
+    <string name="aegis_open_location_settings">Enable</string>
+    <string name="aegis_backup_service_not_enabled">Please choose a backup account before proceeding to enable data recovery.</string>
+    <string name="aegis_backup_service_open_settings">Choose</string>
+    <string name="aegis_backup_service_choose_account">Choose Account</string>
+    <string name="aegis_backup_service_logout_from_account">Logout</string>
+    <string name="aegis_backup_service_options_menu">Account Options</string>
+    <string name="aegis_choose_backup_application">Choose Backup Service</string>
+    <string name="aegis_backup_service_upgrade_to_play_store">If you\'re using a real device(not emulated), please upgrade the play store application</string>
+    
+    <string name="preferences_advanced_category">Advanced Settings</string>
+    <string name="preferences_advanced_sms_category">SMS Settings</string>
+    <string name="preferences_advanced_root_category">Root Settings(REQUIRES ROOT)</string>
+    <string name="preferences_advanced_backup_accounts_category">Backup Accounts</string>
+    <string name="preferences_advanced_backup_phone_number_title">Backup Phone Number</string>
+    <string name="preferences_advanced_backup_phone_number_summary">Backup number that will be utilized for location tracking when OMS notices a new SIM card has been placed in the device.</string>
+    <string name="preferences_advanced_hide_from_launcher_title">Launch From Dialer</string>
+    <string name="preferences_advanced_hide_from_launcher_summary">When enabled, allow you to launch OMS via the secret dialer code: "*#*#23447#*#*"</string>
+    <string name="preferences_advanced_enabled_confirmaton_sms_title">Confirmation SMS</string>
+    <string name="preferences_advanced_enabled_confirmaton_sms_summary">Whether to send confirmation SMS on completed action.</string>
+    <string name="preferences_advanced_enable_abort_broadcast">Abort Broadcast</string>
+    <string name="preferences_advanced_enable_abort_broadcast_summary">Whether to have activation SMS be received by messaging app.</string>
+    <string name="preferences_advanced_change_password">Change Password</string>
+    <string name="preferences_advanced_remove_admin">Remove as Device Admin</string>
+    <string name="preferences_advanced_remove_admin_summary">Allows you to directly uninstall OMS.</string>
+    <string name="preferences_advanced_remove_admin_completed">No longer a device admin</string>
+    <string name="preferences_advanced_install_to_system">Install OMS to system</string>
+    <string name="preferences_advanced_install_to_system_summary">Prevents OMS from being removed even if device is reset.</string>
+    <string name="preferences_advanced_google_account_title">Google Drive Account</string>
+    <string name="preferences_advanced_dropbox_account_title">Dropbox Account</string>
+    <string name="preferences_advanced_dropbox_account_summary_active">Active</string>
+    <string name="preferences_advanced_dropbox_account_summary_inactive">Inactive</string>
+    <string name="preferences_alarm_category">Alarm</string>
+    <string name="preferences_alarm_enabled_title">Alarm</string>
+    <string name="preferences_alarm_enabled_summary">Play an alarm and enable ringer sound on device.</string>
+    <string name="preferences_alarm_activation_sms_title">Alarm Activation SMS</string>
+    <string name="preferences_alarm_activation_sms_summary">Choose what text to send to activate the alarm. It is recommended to use a PIN in your activation SMS to avoid unauthorized activation of the alarm.</string>
+    <string name="preferences_alarm_vibrate_title">Vibrate</string>
+    <string name="preferences_alarm_vibrate_summary"></string>
+    <string name="preferences_alarm_duration_title">Alarm duration</string>
+    <string name="preferences_alarm_duration_summary">How long the alarm should last.</string>
+    <string name="preferences_lock_category">Lock</string>
+    <string name="preferences_lock_enabled_title">Lock</string>
+    <string name="preferences_lock_enabled_summary">Lock the device when activation sms is sent.</string>
+    <string name="preferences_lock_activation_sms_title">Lock Activation SMS</string>
+    <string name="preferences_lock_activation_sms_summary">Choose what text to send to lock the device. It is recommended to use a PIN in your activation SMS to avoid unauthorized locking.</string>
+    <string name="preferences_lock_password_title">Default password</string>
+    <string name="preferences_lock_password_send_in_sms_title">Send password in SMS</string>
+    <string name="preferences_lock_password_summary">Choose what password will be used to lock the device. This is the default password that will be set, custom passwords can be provided when sending SMS by appending the requested password to the SMS. If set to blank, the password/lock method will not be changed but the device will get locked to force re-authentication using the existing password.</string>
+    <string name="preferences_lock_password_send_in_sms_summary">Include the password in the confirmation SMS text when locking.</string>
+    <string name="preferences_wipe_category">Wipe</string>
+    <string name="preferences_wipe_enabled_title">Wipe</string>
+    <string name="preferences_wipe_enabled_summary">Wipe the device when activation sms is sent.</string>
+    <string name="preferences_wipe_activation_sms_title">Wipe Activation SMS</string>
+    <string name="preferences_wipe_activation_sms_summary">Choose what text to send to wipe the device. It is recommended to use a PIN in your activation SMS to avoid unauthorized wiping.</string>
+    <string name="preferences_wipe_sdcard_title">Wipe SD Card</string>
+    <string name="preferences_wipe_sdcard_summary">Whether to wipe sdcard when activation sms is sent.</string>
+    <string name="preferences_data_category">Data</string>
+    <string name="preferences_data_enabled_title">Data</string>
+    <string name="preferences_data_enabled_summary">Recover data to device when activation sms is sent.</string>
+    <string name="preferences_data_activation_sms_title">Data Recovery Activation SMS</string>
+    <string name="preferences_data_activation_sms_summary">Choose what to text to recover data from the device. It is recommended to use a PIN in your activation SMS to avoid unauthorized usage.</string>
+    <string name="preferences_data_backup_call_logs_title">Backup Call Logs</string>
+    <string name="preferences_data_backup_call_logs_summary">Whether to backup call logs to your backup account.</string>
+    <string name="preferences_data_backup_sms_logs_title">Backup SMS Logs</string>
+    <string name="preferences_data_backup_sms_logs_summary">Whether to backup sms logs to your backup account.</string>
+    <string name="preferences_locate_category">Locate</string>
+    <string name="preferences_locate_enabled_title">Locate</string>
+    <string name="preferences_locate_enabled_summary">Locate the device when activation sms is sent.</string>
+    <string name="preferences_locate_activation_sms_title">Locate Activation SMS</string>
+    <string name="preferences_locate_activation_sms_summary">Choose what text to send to locate the device. It is recommended to use a PIN in your activation SMS to avoid unauthorized location tracking.</string>
+    <string name="preferences_locate_stop_sms_title">Stop Tracking SMS</string>
+    <string name="preferences_locate_stop_sms_summary">Choose what text to send to end location tracking remotely.</string>
+    <string name="preferences_locate_lock_pref_title">Lock Device</string>
+    <string name="preferences_locate_lock_pref_summary">Whether to lock device with default lock password or appended password when locate is triggered.</string>
+    <string name="preferences_locate_geocode_pref_title">Enable Geocoded Response</string>
+    <string name="preferences_locate_geocode_pref_summary">Whether to return the location as a formatted address based on US localization.</string>
+    <string name="preferences_locate_update_duration_title">Location Update Interval</string>
+    <string name="preferences_locate_update_duration_summary">Choose how often to have location provider attempt to get a more accurate location from the device being tracked. A lower time will drain more battery on device.</string>
+    <string name="preferences_locate_minimum_distance_title">Location Minimum Distance</string>
+    <string name="preferences_locate_minimum_distance_summary">Choose the minimum distance of change the location service will trigger an update for.</string>
+    
+    <string name="util_sendsms_alarm_pass">OMS: Sound successfully enabled.</string>
+    <string name="util_sendsms_alarm_fail">OMS: Failed to override sound settings. Error:</string>
+    <string name="util_sendsms_lock_message">OMS: Device successfully locked.</string>
+    <string name="util_sendsms_lock_pass">OMS: Locked device with password:</string>
+    <string name="util_sendsms_lock_fail">OMS: Failed to lock device. Error:</string>
+    <string name="util_sendsms_data_recovery_pass">OMS: Recovered file:</string>
+    <string name="util_sendsms_data_recovery_fail">OMS: Failed to recover files</string>
+    <string name="util_sendsms_wipe_pass">OMS: Wiping device.</string>
+    <string name="util_sendsms_wipe_sdcard_pass">OMS: Wiping sdcard(s).</string>
+    <string name="util_sendsms_wipe_fail">OMS: Failed to wipe device. Error:</string>
+    <string name="util_sendsms_locate_fail">OMS: Failed to locate device. Error:</string>
+    <string name="util_sendsms_locate_stopped">OMS: Location tracking disabled</string>
+    
+    <string name="register_password_textview">Password</string>
+    <string name="register_password_confirm_textview">Confirm Password</string>
+    <string name="register_password_button">Continue</string>
+    <string name="register_password_toast_password_set">Passwords changed</string>
+    <string name="register_password_toast_password_fail">Please enter a password and confirm it</string>
+    <string name="register_password_toast_password_match_fail">Passwords do not match</string>
+    <string name="register_password_checkbox_summary">Disable Password Login</string>
+    <string name="register_password_summary">Please enter a password to lock OMS with whenever the session is exited.</string>
+    
+    <string name="login_password_textview">Password</string>
+    <string name="login_password_button">Login</string>
+    <string name="login_password_toast_password_fail">Password is incorrect</string>
+    <string name="login_password_toast_password_enter">Please enter the password</string>
+    <string name="login_password_summary">Please login to continue to OMS</string>
+    
+    <string name="about_developer_name">Copyright(&#169;) 2015 Praveen Shivaji</string>
+
+    <string name="about_share_link">Share OMS</string>
+    <string name="about_xda_link">Support thread on XDA</string>
+    <string name="about_quickly_link">Support Developer</string>
+    <string name="about_changelog_link">What\'s New?</string>
+    
+    <string name="overflow_help">Help</string>
+    <string name="overflow_simlist">Accepted SIMs</string>
+    <string name="overflow_advanced_settings">Settings</string>
+    <string name="overflow_licenses">Licenses</string>
+    <string name="overflow_about">About</string>
+    
+    <string name="advanced_dialog_install_to_system">Do you want to install OMS to the system?\n\nDoing so prevents uninstall even if the device is factory reset.\n\nWarning: Your device will reboot to confirm completion.\nThis cannot be undone.</string>
+    <string name="advanced_dialog_install">Install</string>
+    <string name="advanced_dialog_cancel">Cancel</string>
+    <string name="advanced_dialog_installing">Installing to system...</string>
+    <string name="advanced_dialog_installing_failed">Need superuser access to install to system.</string>
+    <string name="advanced_install_to_system_fail">OMS is already a system app</string>
+    
+    <string name="array_update_item1">30 seconds</string>
+    <string name="array_update_item2">1 minute</string>
+    <string name="array_update_item3">2 minutes</string>
+    <string name="array_update_item4">3 minutes</string>
+    <string name="array_update_item5">5 minutes</string>
+    
+    <string name="array_distance_item1">10 Meters</string>
+    <string name="array_distance_item2">25 Meters</string>
+    <string name="array_distance_item3">50 Meters</string>
+    <string name="array_distance_item4">100 Meters</string>
+    <string name="array_distance_item5">500 Meters</string>
+    
+    <string name="aegis_choose_backup_application_1">Google Drive</string>
+    <string name="aegis_choose_backup_application_2">Dropbox</string>
+    
+    <string name="sim_menu_add">Add IMSI</string>
+    <string name="sim_menu_remove">Remove IMSI</string>
+    <string name="sim_menu_edit">Edit IMSI</string>
+
+    <string name="sim_fragment_request_backup_number">Please add a valid backup number to utilize this feature</string>
+    <string name="sim_fragment_add_dialog">Add IMSI to list</string>
+    <string name="sim_fragment_add_dialog_add">Add</string>
+    <string name="sim_fragment_add_dialog_read">Read</string>
+
+    <string name="sim_fragment_edit_dialog">Edit IMSI in list</string>
+    <string name="sim_fragment_edit_dialog_save">Save</string>
+    <string name="sim_fragment_edit_dialog_cancel">Cancel</string>
+    <string name="sim_fragment_edit_dialog_null">Please enter a valid input</string>
+
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    
+    <string name="receiver_alarm_override">Sound override. Click to disable.</string>
+
+    <string name="indicator_off">OFF</string>
+    <string name="indicator_on">ON</string>
+
+    <string name="preferences_scan_settings">Scan Settings</string>
+    <string name="virus_protection_settings">Virus Protection</string>
+    <string name="quarantine_settings">Quarantine</string>
+    <string name="preferences_update">Virus Database Update</string>
+</resources>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/Gray">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/Gray">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/txt12"
+           android:text="VIRUS DATABASE UPDATE"
+           android:textSize="20dp"
+           android:layout_margin="10dp"
+           android:textColor="@color/MediumTurquoise"
+           />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/Black"
+            android:layout_below="@id/txt12"/>
+
+    </RelativeLayout>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/White">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/update"
+            android:text="Update"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:textColor="@color/Black"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/update1"
+            android:layout_below="@id/update"
+            android:text="Apply Latest Updates From Server"
+            android:textSize="15dp"
+            android:layout_margin="10dp"
+            android:textColor="@color/Black"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/Black"
+            android:layout_below="@id/update1"/>
+
+    </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Gray">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/Gray">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/scansettings"
+                android:text="SCAN SETTINGS"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/MediumTurquoise"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/Black"
+                android:layout_below="@id/scansettings"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/White">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvscan"
+                android:text="Scan Settings"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/Black"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvscan1"
+                android:layout_below="@id/tvscan"
+                android:text="Actions To Perform Virus Found"
+                android:textSize="15dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/Black"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/Black"
+                android:layout_below="@id/tvscan1"/>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/White">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvvirus"
+                android:text="Virus Protection"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/Black"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvvirus1"
+                android:layout_below="@id/tvvirus"
+                android:text="Virus Protection Is Enabled"
+                android:textSize="15dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/Black"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/Black"
+                android:layout_below="@id/tvvirus1"/>
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/switch1"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/White">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvquarantine"
+                android:text="Quarantine"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/Black"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvquarantine1"
+                android:layout_below="@id/tvquarantine"
+                android:text="Delete Quarantine Files After 30 Days"
+                android:textSize="15dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/Black"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/Black"
+                android:layout_below="@id/tvquarantine1"/>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

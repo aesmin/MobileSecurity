@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip" android:layout_above="@+id/agreement_base" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:layout_alignParentTop="true">
+    <WebView android:id="@+id/agreement_text"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</ScrollView>
+    </LinearLayout>
+<RelativeLayout android:id="@+id/agreement_base"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5.0dip"
+    android:layout_alignParentBottom="true">
+<Button android:id="@+id/bt_IAgree"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16.0dip"
+    android:layout_marginTop="5.0dip"
+    android:layout_marginRight="16.0dip"
+    android:layout_alignParentTop="true"
+    android:text="I Agree"
+    android:background="#0393de"
+    android:textColor="#FFFFFF"
+    android:onClick="OnIAgree"/>
+<Button android:id="@+id/bt_cancel"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16.0dip"
+    android:layout_marginTop="5.0dip"
+    android:layout_marginRight="16.0dip"
+    android:layout_below="@id/bt_IAgree"
+    android:text="I Decline" android:background="#d53326" android:textColor="#FFFFFF" android:onClick="OnCancel"/>
+</RelativeLayout>@drawable/roundbuttonred
+    </RelativeLayout>

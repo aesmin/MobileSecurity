@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/Tools"
+        android:title="Options"
+        android:showAsAction="always"
+        android:layout_gravity="left"
+        android:icon="@drawable/options">
+        <menu>
+            <item android:id="@+id/license_info"
+                android:title="License Info"
+                android:showAsAction="always"
+                android:layout_gravity="left"
+                android:icon="@drawable/lic"/>
+            <item android:id="@+id/support"
+                android:title="Support"
+                android:showAsAction="always"
+                android:layout_gravity="left"
+                android:icon="@drawable/support"/>
+            <item android:id="@+id/purchase"
+                android:title="Purchase"
+                android:showAsAction="always"
+                android:layout_gravity="left"
+                android:icon="@drawable/purchase"/>
+            <item android:id="@+id/register"
+                android:title="Activate License"
+                android:showAsAction="always"
+                android:layout_gravity="left"
+                android:icon="@drawable/register"/>
+            <item android:id="@+id/reports"
+                android:title="Reports"
+                android:showAsAction="always"
+                android:layout_gravity="left"
+                android:icon="@drawable/reports"/>
+            <item android:id="@+id/about_us"
+                  android:title="About Us"
+                  android:showAsAction="always"
+                  android:layout_gravity="left"
+                  android:icon="@drawable/about"/>
+
+            </menu>
+    </item>
+</menu>

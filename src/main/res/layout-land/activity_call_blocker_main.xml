@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/mainActivityWelcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:text="Welcome to Call Blocker"
+        android:textSize="25sp"
+        android:textStyle="italic" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/mainActivityWelcomeText"
+        android:gravity="center" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/mainActivityStartCallBlockerService"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/start"
+           		android:gravity="center"
+            	android:text="Start blocking calls/sms"/>
+
+            <Button
+                android:id="@+id/mainActivityStopCallBlockerService"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/stop"
+          		android:gravity="center"
+            	android:text="Stop blocking calls/sms"  />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/mainActivitySeeBlacklist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/search"
+      			android:gravity="center"
+       			android:text="BlackList"/>
+
+            <Button
+                android:id="@+id/mainActivitySeeLog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/log"
+       			android:gravity="center"
+        		android:text="My log"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/mainActivityAppInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/info"
+       			android:gravity="center"
+     			android:text="App Info"/>
+
+            <Button
+                android:id="@+id/mainActivityAboutInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/about"
+        		android:gravity="center"
+      			android:text="About" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/mainActivityRateApp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/rate"
+       			android:gravity="center"
+      			android:text="Rate app" />
+
+            <Button
+                android:id="@+id/mainActivitySettings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+              	android:drawableRight="@drawable/settings"
+        		android:gravity="center"
+        		android:text="Settings"  />
+
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

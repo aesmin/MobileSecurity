@@ -1,0 +1,50 @@
+<resources>
+    <bool name="config_default_aegis_initialized">false</bool>
+    <bool name="config_default_alarm_enabled">true</bool>
+    
+    <bool name="config_default_lock_enabled">false</bool>
+    <bool name="config_default_lock_wipe_pref">false</bool>
+    <bool name="config_default_send_password_in_sms_pref">false</bool>
+
+    <bool name="config_default_wipe_enabled">false</bool>
+    <bool name="config_default_wipe_sdcard">false</bool>
+
+    <bool name="config_default_data_enabled">false</bool>
+    <bool name="config_default_data_backup_call_logs">true</bool>
+    <bool name="config_default_data_backup_sms_logs">true</bool>
+    <bool name="config_default_google_backup_enabled">false</bool>
+    <bool name="config_default_dropbox_backup_enabled">false</bool>
+    
+    <bool name="config_default_locate_enabled">false</bool>
+    <bool name="config_default_locate_lock_pref">false</bool>
+    <bool name="config_default_locate_geocode_pref">true</bool>
+    
+    <bool name="config_default_password_set">false</bool>
+    <bool name="config_default_password_wanted">true</bool>
+    
+    <bool name="config_default_advanced_enabled_confirmation_sms">true</bool>
+    <bool name="config_default_advanced_enable_abort_broadcast">true</bool>
+    <bool name="config_default_advanced_hide_from_launcher">false</bool>
+    
+    <string name="config_default_login_password">SSMS</string>
+    <string name="config_default_alarm_activation_sms">SSMS alarm</string>
+    <string name="config_default_lock_activation_sms">SSMS lock</string>
+    <string name="config_default_wipe_activation_sms">SSMS wipe</string>
+    <string name="config_default_data_activation_sms">SSMS data</string>
+    <string name="config_default_locate_activation_sms">SSMS locate</string>
+    <string name="config_default_locate_stop_sms">SSMS stop tracking</string>
+
+    <string name="config_default_alarm_vibrate">true</string>
+    <string name="config_default_alarm_duration">15</string>
+
+    <string name="config_default_lock_password">SSMS</string>
+
+    <string name="config_default_locate_update_duration">120</string>
+    <string name="config_default_locate_minimum_distance">10</string>
+
+    <string name="config_default_advanced_backup_phone_number">0000000000</string>
+
+    <string name="config_default_scan_action">Skip</string>
+    <string name="config_default_quarantine_action">30</string>
+
+</resources>

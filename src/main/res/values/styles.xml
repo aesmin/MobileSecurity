@@ -1,0 +1,63 @@
+<resources>
+    <style name="CodeFont" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@drawable/lockscreen_button</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">35dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dip</item>
+        <item name="android:layout_marginTop">10dip</item>
+        <item name="android:layout_marginLeft">5dip</item>
+        <item name="android:layout_marginRight">5dip</item>
+    </style>
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <!-- Base application theme. -->
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowTitleBackgroundStyle">@style/WindowTitleBackground</item>
+    </style>
+<style name="custom_actionbar_style" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+    <item name="android:actionBarStyle">@style/custom_style</item>
+</style>
+    <style name="custom_style" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/actionbar_background</item>
+    </style>
+    <style name="WindowTitleBackground">
+        <item name="android:background">@drawable/bg_titlebar</item>
+    </style>
+
+<style name="Theme" parent="android:Theme.Holo.Light.DarkActionBar">
+     <item name="android:activatedBackgroundIndicator">@drawable/light_grey_highlight</item>
+  </style>
+
+    <style name="PreferencesTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+</style>
+
+    <style name="Theme.AppCompat.Light.DarkActionBar">Theme.AppCompat.Light.DarkActionbar</style>
+
+    <style name="Theme.AppCompat.Light">Theme.AppCompat.Light</style>
+
+    <style name="Theme.AppCompat">Theme.AppCompat</style>
+
+    <style name="AppLandingButtonUpperText">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/blue_note</item>
+    </style>
+    <style name="AppLandingButtonLowerText">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/orange_warning</item>
+    </style>
+
+    <style name="Theme.AppBaseTheme.Light.DarkActionBar" parent="@style/Theme.AppCompat.Light.DarkActionBar" />
+</resources>

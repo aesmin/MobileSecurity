@@ -1,0 +1,139 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="20.0dip" android:layout_above="@+id/userprofile_base" >
+
+
+    <TextView
+        android:id="@+id/txtUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+        android:textAppearance="?android:attr/textAppearanceSmall" android:layout_margin="5dp" />
+
+
+
+    <EditText android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtUserVal"
+        android:gravity="left"
+        android:padding="5dp"
+        android:background="@drawable/linesample"
+        android:layout_marginBottom="10dp"
+        android:maxLines="1"
+        android:phoneNumber="false"
+        android:inputType="textPersonName" />
+
+
+
+        <TextView
+            android:id="@+id/txtMobNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile Number"
+            android:textAppearance="?android:attr/textAppearanceSmall" android:layout_margin="5dp" />
+
+
+
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtMobNoVal"
+                android:gravity="left"
+                android:padding="5dp"
+
+                android:background="@drawable/linesample"
+                android:layout_marginBottom="10dp"
+                android:inputType="phone" />
+
+
+
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email Address"
+            android:textAppearance="?android:attr/textAppearanceSmall" android:layout_margin="5dp"/>
+
+
+
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtEmailVal"
+                android:gravity="left"
+                android:padding="5dp"
+                android:background="@drawable/linesample"
+                android:layout_marginBottom="10dp"
+                android:maxLines="1"
+                android:inputType="textWebEmailAddress" />
+
+
+
+        <TextView
+            android:id="@+id/txtPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textAppearance="?android:attr/textAppearanceSmall" android:layout_margin="5dp"/>
+
+
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtPasswordVal"
+                android:gravity="left"
+                android:padding="5dp"
+                android:background="@drawable/linesample"
+                android:layout_marginBottom="10dp"
+                android:password="true"
+                android:inputType="textPassword" />
+
+        <CheckBox
+            android:id="@+id/cbShowPwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtPasswordVal"
+            android:layout_below="@+id/txtPasswordVal"
+            android:text="Show Password" />
+
+
+        <TextView
+            android:id="@+id/txtActivationKey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Activation Key"
+            android:textAppearance="?android:attr/textAppearanceSmall" android:layout_margin="5dp" />
+
+
+        <EditText android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtActivationKeyVal"
+            android:gravity="left"
+            android:padding="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/linesample" />
+
+    </LinearLayout>
+
+    <RelativeLayout android:id="@+id/userprofile_base" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_alignParentBottom="true" android:layout_marginBottom="5.0dip" >
+        <Button android:id="@+id/bt_submit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="16.0dip" android:layout_alignParentTop="false" android:text="Submit" android:background="@drawable/roundbutton" android:textColor="#FFFFFF" android:onClick="OnSubmit"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+
+
+</LinearLayout>
+    </ScrollView>

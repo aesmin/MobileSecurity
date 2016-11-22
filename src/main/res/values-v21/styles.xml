@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.AppBaseTheme.Light.DarkActionBar" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:colorPrimaryDark">@color/holo_light_primary_dark</item>
+        <item name="android:colorForeground">@color/bright_foreground_holo_light</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="android:statusBarColor">@color/black</item>
+    </style>
+</resources>

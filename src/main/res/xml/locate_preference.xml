@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/preferences_locate_category" >
+        <EditTextPreference android:key="locate_stop_sms"
+                android:title="@string/preferences_locate_stop_sms_title"
+                android:summary="@string/preferences_locate_stop_sms_summary"
+                android:maxLength="160"
+                android:defaultValue="@string/config_default_locate_stop_sms" />
+        <SwitchPreference android:key="locate_lock_pref"
+                android:title="@string/preferences_locate_lock_pref_title"
+                android:summary="@string/preferences_locate_lock_pref_summary"
+                android:defaultValue="@bool/config_default_locate_lock_pref" />
+        <SwitchPreference android:key="locate_geocode_pref"
+                android:title="@string/preferences_locate_geocode_pref_title"
+                android:summary="@string/preferences_locate_geocode_pref_summary"
+                android:defaultValue="@bool/config_default_locate_geocode_pref" />
+        <ListPreference android:key="locate_update_duration"
+                android:title="@string/preferences_locate_update_duration_title"
+                android:summary="@string/preferences_locate_update_duration_summary"
+                android:entries="@array/preferences_locate_update_duration_entries"
+                android:entryValues="@array/preferences_locate_update_duration_values"
+                android:defaultValue="@string/config_default_locate_update_duration" />
+        <ListPreference android:key="locate_minimum_distance"
+                android:title="@string/preferences_locate_minimum_distance_title"
+                android:summary="@string/preferences_locate_minimum_distance_summary"
+                android:entries="@array/preferences_locate_minimum_distance_entries"
+                android:entryValues="@array/preferences_locate_minimum_distance_values"
+                android:defaultValue="@string/config_default_locate_minimum_distance" />
+     </PreferenceCategory>
+</PreferenceScreen>

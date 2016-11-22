@@ -1,0 +1,49 @@
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@+id/agreement_base" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip"
+        android:layout_centerVertical="true">
+        <Button android:id="@+id/bt_Activate"
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16.0dip"
+            android:layout_marginTop="5.0dip"
+            android:layout_marginRight="16.0dip"
+            android:layout_alignParentTop="true"
+            android:background="#0393de"
+            android:textSize="30dp"
+            android:text="Activate
+            Activate using Product Key"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:onClick="OnActivate"/>
+
+        <Button android:id="@+id/bt_Renew"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginRight="16.0dip"
+            android:layout_below="@id/bt_Activate"
+            android:background="#49bd3a"
+            android:textSize="30dp"
+            android:text="Renew"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:onClick="OnRenew"/>
+
+        <Button android:id="@+id/bt_Trial"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginRight="16.0dip"
+            android:layout_below="@id/bt_Renew"
+            android:background="#d53326"
+            android:textSize="30dp"
+            android:text="Free Trial"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:onClick="OnTrial"/>
+    </RelativeLayout>
+</RelativeLayout>

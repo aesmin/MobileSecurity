@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <TextView android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="Full Name:"
+         android:layout_marginLeft="10dip"
+         android:layout_marginRight="10dip"
+         android:layout_marginTop="20dip"
+         android:textColor="#f9f8fd"/>
+     
+     <EditText android:id="@+id/txtName" 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="10dip"
+         android:layout_marginBottom="20dip"
+         android:textColor="#fdfbf3"
+         />
+     
+     <TextView android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="Email:"
+         android:layout_marginLeft="10dip"
+         android:layout_marginRight="10dip"
+         android:textColor="#f9fef7"/>
+     
+     <EditText android:id="@+id/txtEmail" 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="10dip"
+         android:layout_marginBottom="20dip"
+         android:textColor="#fdf2fc" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:layout_gravity="center"
+        android:gravity="center|top">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_width="144dp"
+            android:id="@+id/linearLayout">
+
+            <ImageButton android:id="@+id/btnRegister"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dip"
+                android:background="@drawable/btn_register"
+
+                />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

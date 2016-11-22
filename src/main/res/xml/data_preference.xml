@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="@string/preferences_data_category" >
+        <SwitchPreference android:key="data_backup_call_logs"
+                android:title="@string/preferences_data_backup_call_logs_title"
+                android:summary="@string/preferences_data_backup_call_logs_summary"
+                android:defaultValue="@bool/config_default_data_backup_call_logs" />
+        <SwitchPreference android:key="data_backup_sms_logs"
+                android:title="@string/preferences_data_backup_sms_logs_title"
+                android:summary="@string/preferences_data_backup_sms_logs_summary"
+                android:defaultValue="@bool/config_default_data_backup_sms_logs" />
+    </PreferenceCategory>
+</PreferenceScreen>

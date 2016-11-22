@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/base_padding"
+                >
+
+                <com.ssav.CircleImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/activate"
+                    android:id="@+id/bt_Activate"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="@color/light"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"
+                    android:onClick="OnActivate"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt110"
+                    android:layout_below="@id/bt_Activate"
+                    android:text="Activate"
+                    android:textColor="@color/Black"
+                    android:textSize="14dp"
+
+                    android:layout_centerHorizontal="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/base_padding"
+                >
+
+                <com.ssav.CircleImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bt_Renew"
+                    android:src="@drawable/renew"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="@color/light"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"
+                    android:onClick="OnRenew"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt210"
+                    android:layout_below="@id/bt_Renew"
+                    android:text="Renew"
+                    android:textSize="14dp"
+                    android:textColor="@color/Black"
+                    android:layout_centerHorizontal="true"
+                    />
+            </RelativeLayout>
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="@dimen/base_padding"
+            >
+
+            <com.ssav.CircleImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/freetrial"
+                android:id="@+id/bt_Trial"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/light"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:onClick="OnTrial"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt19"
+                android:layout_below="@id/bt_Trial"
+                android:text="Free Trial"
+                android:textColor="@color/Black"
+                android:textSize="14dp"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+</LinearLayout>
+    </LinearLayout>
+</ScrollView>

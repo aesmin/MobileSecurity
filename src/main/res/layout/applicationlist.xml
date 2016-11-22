@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:binding="http://www.gueei.com/android-binding/"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <GridView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:numColumns="3"
+            android:stretchMode="columnWidth"
+            android:horizontalSpacing="20dip"
+            android:verticalSpacing="20dip"
+            binding:itemSource="Applications"
+            binding:itemTemplate="@layout/applicationlist_item"/>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center" android:layout_marginTop="5dp">
+                <Button
+                        android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                    android:text="Defaults"
+                    android:textSize="12dp"
+                    android:textColor="#ffffff"
+                    android:background="#0393de"
+                        binding:onClick="SelectAllImportant"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                               android:gravity="center" />
+                <Button
+                        android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                    android:text="Block All"
+                    android:textColor="#ffffff"
+                    android:background="#0393de"
+                    android:textSize="12dp"
+                        binding:onClick="SelectAll"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center" />
+                <Button
+                        android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                    android:text="Allow All"
+                    android:textColor="#ffffff"
+                    android:background="#0393de"
+                    android:textSize="12dp"
+                        binding:onClick="DeselectAll"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center" />
+        </LinearLayout>
+</LinearLayout>

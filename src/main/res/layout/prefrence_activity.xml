@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Gray">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/Gray">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt12"
+                android:text="Enable AppLocker"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/MediumTurquoise"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/Black"
+                android:layout_below="@id/txt12"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/White">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/update"
+                android:text="AppLocker Service"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/Black"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/update1"
+                android:layout_below="@id/update"
+                android:text="AppLocker Disabled"
+                android:textSize="15dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/Black"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/Black"
+                android:layout_below="@id/update1"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/checkBox"
+                android:layout_alignBottom="@+id/update1"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/White">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvauto"
+                android:text="Auto Start Service"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/Black"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvauto1"
+                android:layout_below="@id/tvauto"
+                android:text="Manually Startup Service After reboot"
+                android:textSize="15dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/Black"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/Black"
+                android:layout_below="@id/tvauto1"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/checkBox1"
+                android:layout_alignBottom="@+id/tvauto1"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Gray">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/Gray">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvgeneral"
+                android:text="General"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/MediumTurquoise"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/Black"
+                android:layout_below="@id/tvgeneral"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/White">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvedit"
+                android:text="Edit Password"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/Black"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvedit1"
+                android:layout_below="@id/tvedit"
+                android:text="Edit The Unlock Password"
+                android:textSize="15dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/Black"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/Black"
+                android:layout_below="@id/tvedit1"/>
+
+
+
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/White">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvrelock"
+                android:text="Relock Policy"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/Black"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvrelock1"
+                android:layout_below="@id/tvrelock"
+                android:text="Require Password Everytime the Blocked app is Launched"
+                android:textSize="15dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/Black"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/Black"
+                android:layout_below="@id/tvrelock1"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/checkBox1"
+                android:layout_alignBottom="@+id/tvauto1"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/White">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvauto"
+                android:text="Relock Timeout"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/Black"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvauto1"
+                android:layout_below="@id/tvauto"
+                android:text="Minutes Of Time before the app is relocked "
+                android:textSize="15dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/Black"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/Black"
+                android:layout_below="@id/tvauto1"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/checkBox1"
+                android:layout_alignBottom="@+id/tvauto1"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

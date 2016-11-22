@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="Reports"
+        android:key="report_category">
+        <Preference android:title="Update Report">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="com.ssav"
+                android:targetClass="com.ssav.UpdateReportActivity" >
+            </intent>
+        </Preference>
+        <Preference android:title="Scan Report">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="com.ssav"
+                android:targetClass="com.ssav.ScanReportActivity" >
+            </intent>
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

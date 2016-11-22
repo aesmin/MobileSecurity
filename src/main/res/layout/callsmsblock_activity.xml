@@ -1,0 +1,136 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/base_padding"
+                >
+
+                <com.ssav.CircleImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/startblocking"
+                    android:id="@+id/mainActivityStartCallBlockerService"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="@color/light"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt10"
+                    android:layout_below="@id/mainActivityStartCallBlockerService"
+                    android:text="Start Blocking"
+                    android:textColor="@color/Black"
+                    android:textSize="14dp"
+
+                    android:layout_centerHorizontal="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/base_padding"
+                >
+
+                <com.ssav.CircleImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mainActivityStopCallBlockerService"
+                    android:src="@drawable/stopblocking"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="@color/light"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt20"
+                    android:layout_below="@id/mainActivityStopCallBlockerService"
+                    android:text="Stop Blocking"
+                    android:textSize="14dp"
+                    android:textColor="@color/Black"
+                    android:layout_centerHorizontal="true"
+                    />
+            </RelativeLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/base_padding"
+                >
+
+                <com.ssav.CircleImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mainActivitySeeBlacklist"
+                    android:src="@drawable/blocklist"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="@color/light"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt30"
+                    android:layout_below="@id/mainActivitySeeBlacklist"
+                    android:text="Black List"
+                    android:textSize="14dp"
+                    android:textColor="@color/Black"
+                    android:layout_centerHorizontal="true"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/base_padding"
+                >
+
+                <com.ssav.CircleImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mainActivitySeeLog"
+                    android:src="@drawable/mylog"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="@color/light"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt40"
+                    android:layout_below="@id/mainActivitySeeLog"
+                    android:text="My Log"
+                    android:textSize="14dp"
+                    android:textColor="@color/Black"
+                    android:layout_centerHorizontal="true"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+</LinearLayout>
+    </ScrollView>

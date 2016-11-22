@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="scroll_scan_result" type="id">scroll_scan_result</item>
+    <item name="upper_text" type="id">upper_text</item>
+    <item name="lower_text" type="id">lower_text</item>
+    <item name="protection" type="id">protection</item>
+</resources>

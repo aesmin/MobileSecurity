@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip" android:layout_above="@+id/agreement_base" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:layout_alignParentTop="true">
+            <WebView android:id="@+id/agreement_text"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </ScrollView>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/agreement_base"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5.0dip"
+        android:layout_alignParentBottom="true">
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/txtVersion"
+            android:layout_marginBottom="5dp"
+            android:text="Version:1.16.26"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16.0dip"
+            android:layout_marginTop="5.0dip"
+            android:layout_marginRight="16.0dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/txtVdB"
+            android:layout_below="@id/txtVersion"
+            android:layout_marginBottom="5dp"
+            android:text="Virus Database:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginLeft="16.0dip"
+            android:layout_marginTop="5.0dip"
+            android:layout_marginRight="16.0dip"/>
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/txtUser"
+            android:layout_marginBottom="5dp"
+            android:text="Licensed to:"
+            android:layout_below="@id/txtVdB"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:visibility="gone"
+            android:layout_marginLeft="16.0dip"
+            android:layout_marginTop="5.0dip"
+            android:layout_marginRight="16.0dip"/>
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/txtExpiry"
+            android:layout_marginBottom="5dp"
+            android:text="License valid till:"
+            android:layout_below="@id/txtUser"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:visibility="gone"
+            android:layout_marginLeft="16.0dip"
+            android:layout_marginTop="5.0dip"
+            android:layout_marginRight="16.0dip"/>
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/txtnotRegistred"
+            android:layout_marginBottom="5dp"
+            android:text="Copy not registered"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:visibility="gone"
+            android:textColor="#F24040"
+            android:layout_below="@id/txtExpiry"
+            android:layout_marginLeft="16.0dip"
+            android:layout_marginTop="5.0dip"
+            android:layout_marginRight="16.0dip"/>
+
+        <Button android:id="@+id/bt_UpdateNow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16.0dip"
+            android:layout_marginTop="5.0dip"
+            android:layout_marginRight="16.0dip"
+            android:text="Update Now"
+            android:background="#0393de"
+            android:textColor="#FFFFFF"
+            android:onClick="OnUpdateNow"
+            android:layout_below="@id/txtnotRegistred"/>
+
+    </RelativeLayout>@drawable/roundbuttonred
+</RelativeLayout>

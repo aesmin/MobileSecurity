@@ -1,0 +1,41 @@
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/preferences_update"
+
+        android:key="update_category">
+        <Preference android:title="Update" android:summary="Apply latest updates from Server">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="com.ssav"
+                android:targetClass="com.ssav.UpdateActivity" >
+            </intent>
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_scan_settings"
+        android:key="scan_category">
+        <ListPreference android:key="scan_action"
+            android:title="Scan Settings"
+            android:summary="Actions to perform when virus found"
+            android:entries="@array/preferences_scan_action_entries"
+            android:entryValues="@array/preferences_scan_action_values"
+            android:defaultValue="@string/config_default_scan_action"/>
+    </PreferenceCategory>
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="VirusProtectionOnOff"
+        android:title="@string/virus_protection_settings"
+        android:summary="Virus Protection is enabled"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        />
+
+    <com.ssav.Virusprotection.EnumPreference android:key="quarantine_action"
+        android:title="Quarantine"
+        android:summary="Delete quarantine files %s "
+        android:entries="@array/quarantine_action_entries"
+        android:entryValues="@array/quarantine_action_values"
+        android:defaultValue="@string/config_default_quarantine_action"/>
+
+</PreferenceScreen>

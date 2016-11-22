@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#000000" >
+
+
+
+<!--    <Button android:id="@+id/bt_Register"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginTop="5.0dip"
+        android:layout_marginRight="16.0dip"
+        android:layout_alignParentTop="true"
+        android:text="Activate Now!"
+        android:background="@drawable/roundbutton"
+        android:textColor="#FFFFFF"
+        android:onClick="OnRegisterNow"
+
+        android:layout_width="353dp"
+        android:layout_gravity="center_vertical" />-->
+
+
+
+        <LinearLayout
+            android:layout_height= "match_parent"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_weight=".4"
+            android:id="@+id/firstrow">
+
+            <Button
+                android:layout_height="0dip" android:drawableBottom="@mipmap/list_ic_scan"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#6379b2"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:visibility="visible"
+                android:text="Scan"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_gravity="center_vertical"
+                android:paddingBottom="15dp"
+                android:paddingTop="20dp"
+                android:onClick="ScanNow" />
+            <Button
+                android:layout_height="0dip"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:drawableBottom="@mipmap/app_locker"
+                android:background="@drawable/buttonshape_update"
+                android:shadowColor="#8B5241"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:textColor="#ffffff"
+                android:text="App Lock "
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp"
+                android:id="@+id/button_2"
+                android:onClick="Applock" />
+            <Button
+            android:layout_height="0dip"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+                android:background="@drawable/buttonshape_theft"
+                android:shadowColor="#03913B"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="Theft \nProtection"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:id="@+id/button_3"
+                android:onClick="AntiTheft" />
+            <Button
+                android:layout_height="0dip"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:background="#35342F"
+                android:text="Activate\n License"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:lines="2"
+                android:singleLine="false"
+                android:id="@+id/bt_activatel"
+                android:onClick="OnRegisterNow"
+                android:enabled="true"/>        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height= "match_parent"
+            android:layout_width="0dip"
+            android:orientation="vertical"
+            android:layout_weight=".6"
+
+
+            >
+
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_weight=".33"
+                android:background="@drawable/buttonshape_virusp"
+                android:shadowColor="#5B4E58"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:textColor="#ffffff"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                android:layout_height="0dip"
+                android:text="Virus Protection\n"
+                android:id="@+id/switch1"
+                android:singleLine="false"
+                android:checked="false"
+                android:minLines="2"
+                android:onClick="VirusProtection"
+                android:paddingTop="25dp" />
+
+            <Button
+                android:layout_height="0dip" android:drawableBottom="@mipmap/callsmsblock1"
+                android:layout_width="match_parent"
+                android:layout_weight=".33"
+
+                android:background="@drawable/buttonshape_block"
+                android:shadowColor="#8F699C"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="Call/SMS Block"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:paddingBottom="45dp"
+                android:paddingTop="30dp"
+                android:id="@+id/button_1"
+                android:onClick="CallBlock" />
+            <!--<Button
+                android:layout_height="0dip" android:drawableBottom="@mipmap/btn_setting"
+                android:layout_width="match_parent"
+                android:layout_weight=".2"
+                android:background="@drawable/buttonshape_settings"
+                android:shadowColor="#6C525B"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="Settings"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+
+                android:textSize="23dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="18dp" />-->
+
+            <Button
+                android:layout_height="0dip"
+                android:layout_width="match_parent"
+                android:layout_weight=".33"
+                android:background="@drawable/buttonshape_upnow"
+                android:shadowColor="#D6214A"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+
+                android:padding="25dp"
+                android:drawableBottom="@mipmap/update_now"
+                android:text="Update "
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:id="@+id/button_4"
+                android:onClick="OnUpdateNow1"
+                android:textColor="#ffffff" />
+
+
+
+
+
+
+        </LinearLayout>
+        <!--  <ImageButton
+          android:id="@+id/button_3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:focusable="true"
+          android:background="@drawable/antitheft_grey"
+          android:onClick="AntiTheft"
+          android:layout_alignTop="@+id/button_1"
+          android:layout_toRightOf="@+id/button_1"
+          android:layout_marginLeft="10dp" />
+
+          <ImageButton
+          android:id="@+id/button_4"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:focusable="true"
+          android:background="@drawable/antivirus"
+          android:onClick="VirusProtection"
+          android:layout_alignTop="@+id/button_2"
+          android:layout_alignLeft="@+id/button_3"
+          android:layout_alignStart="@+id/button_3"
+              android:layout_gravity="center_vertical" />
+
+          <ImageButton android:layout_below="@id/button_1"
+          android:layout_alignLeft="@id/button_1"
+          android:id="@+id/button_2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:focusable="true"
+          android:background="@drawable/applock_grey"
+          android:layout_marginTop="10dp"
+          android:layout_marginBottom="10dp"
+          android:onClick="Applock"
+          android:layout_gravity="center_vertical" />
+
+          <ImageButton android:id="@+id/button_1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:focusable="true"
+              android:background="@drawable/callblock_grey"
+              android:layout_marginTop="20dp"
+              android:onClick="CallBlock"
+              android:layout_alignParentTop="true"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentStart="true"
+              android:clickable="false" />-->
+
+    <!--<Button android:id="@+id/bt_ScanNow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginBottom="5.0dip" android:layout_marginRight="16.0dip"  android:text="Scan Now" android:background="@drawable/roundbutton" android:textColor="#FFFFFF" android:onClick="ScanNow" android:layout_alignBottom="@+id/app_main"/>-->
+
+
+</LinearLayout>
+
+

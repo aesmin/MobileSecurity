@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+        <PreferenceCategory android:title="@string/preferences_advanced_category"
+
+        android:key="advanced_category">
+
+            <Preference
+                android:title="@string/preferences_advanced_change_password">
+                    <intent
+                       android:action="android.intent.action.VIEW"
+                       android:targetPackage="com.ssav.antitheft"
+                       android:targetClass="com.ssav.antitheft.RegisterActivity" >
+                       <extra android:name="fromAegis" android:value="true" />
+                    </intent>
+            </Preference>
+
+            <SwitchPreference android:key="advanced_hide_from_launcher"
+                android:title="@string/preferences_advanced_hide_from_launcher_title"
+                android:summary="@string/preferences_advanced_hide_from_launcher_summary"
+                android:defaultValue="@bool/config_default_advanced_hide_from_launcher" />
+            
+            <Preference android:title="@string/preferences_advanced_remove_admin"
+                android:key="remove_admin"
+                android:summary="@string/preferences_advanced_remove_admin_summary" />
+            
+        </PreferenceCategory>
+        
+        <PreferenceCategory android:title="@string/preferences_advanced_sms_category"
+            android:key="advanced_sms_category">
+            <EditTextPreference android:key="advanced_backup_phone_number"
+                 android:title="@string/preferences_advanced_backup_phone_number_title"
+                 android:summary="@string/preferences_advanced_backup_phone_number_summary"
+                 android:defaultValue="@string/config_default_advanced_backup_phone_number"
+                 android:phoneNumber="true"/>
+
+        </PreferenceCategory>
+
+        <PreferenceCategory android:title="@string/preferences_advanced_backup_accounts_category"
+            android:key="advanced_google_accounts_category">
+
+             <SwitchPreference android:title="@string/preferences_advanced_google_account_title"
+                android:key="google_account_chosen"
+                android:defaultValue="@bool/config_default_google_backup_enabled">
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:targetPackage="com.ssav"
+                        android:targetClass="com.ssav.BackupGoogleAccountsActivity" >
+                    </intent>
+             </SwitchPreference>
+
+        </PreferenceCategory>
+
+        <PreferenceCategory android:title="@string/preferences_advanced_root_category"
+            android:key="advanced_root_category">
+
+             <Preference android:title="@string/preferences_advanced_install_to_system"
+                android:key="install_to_system"
+                android:summary="@string/preferences_advanced_install_to_system_summary" />
+
+        </PreferenceCategory>
+
+</PreferenceScreen>

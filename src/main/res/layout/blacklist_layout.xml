@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  >
+
+    <TextView
+        android:id="@+id/blacklistNameTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/blacklistNumberTxt"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/blacklistNumberTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/blacklistNameTxt"
+        android:layout_toLeftOf="@+id/blacklistCallButton"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <ImageButton
+        android:id="@+id/blacklistSmsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/blacklistCallButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/blacklistCallButton"
+        android:layout_marginRight="41dp"
+        android:src="@drawable/smsblack" />
+
+    <ImageButton
+        android:id="@+id/blacklistDeleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/blacklistSmsButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/blacklistSmsButton"
+        android:src="@drawable/delete" />
+
+    <ImageButton
+        android:id="@+id/blacklistCallButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/blacklistNumberTxt"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/blacklistSmsButton"
+        android:src="@drawable/phoneblack" />
+
+</RelativeLayout>

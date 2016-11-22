@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_vertical|center_horizontal"
+    >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:layout_centerVertical="@+id/progressBar1"
+        android:text="Updating from server..."
+        android:textColor="#000000" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:indeterminate="false"
+        android:max="100"
+        android:minHeight="20dp"
+        android:minWidth="200dp"
+        android:progress="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="@+id/progressBar1"
+        android:text="Please wait"
+        android:textColor="#000000"
+        android:layout_below="@+id/progressBar1"
+        android:layout_alignRight="@+id/progressBar1"
+        android:layout_alignEnd="@+id/progressBar1"
+        android:layout_marginTop="10dp" />
+
+</RelativeLayout>
+

@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    >
+<RelativeLayout
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="20dp"
+    android:gravity="center|top">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:layout_centerVertical="@+id/progressBar1"
+        android:text="Scanning..."
+        android:textColor="#0393de"
+        android:gravity="center" />
+
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:indeterminate="false"
+        android:max="100"
+        android:minHeight="20dp"
+        android:minWidth="200dp"
+        android:progress="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="@+id/progressBar1"
+        android:layout_below="@+id/progressBar1"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="@+id/progressBar1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="20dp"
+        android:text="0 threats found"
+        android:textColor="#0393de"/>
+
+
+
+</RelativeLayout>
+<RelativeLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5.0dip"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="5.0dip"
+    android:id="@+id/relativeLayoutbase"
+    android:layout_margin="5.0dip" ></RelativeLayout>
+    <Button android:id="@+id/btnStop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Scan"
+        android:background="#0393de"
+        android:textColor="#FFFFFF"
+        android:onClick="showAlert"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+</RelativeLayout>
+
